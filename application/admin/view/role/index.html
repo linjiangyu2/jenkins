@@ -1,0 +1,41 @@
+
+    <!-- 右 -->
+    <div class="content">
+        <div class="header">
+            <h1 class="page-title">角色列表</h1>
+        </div>
+
+        <div class="well">
+        <a class="btn btn-primary" href="{:url('create')}">新增</a>
+            <!-- table -->
+            <table class="table table-bordered table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>编号</th>
+                        <th>用户组(角色名称)</th>
+                        <th>权限id</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {foreach $list as $k=>$v}
+                    <tr class="success">
+                        <td>{$k+1}</td>
+                        <td>{$v.role_name}</td>
+                        <td>{$v.role_auth_ids}</td>
+                        <td>
+                            <a href="{:url('setauth', ['id' => $v.id])}"> 分派权限 </a>
+                            <a href="{:url('edit', ['id' => $v.id])}"> 编辑 </a>
+                            <a href="javascript:void(0);" onclick="if(confirm('确认删除？')) location.href='{:url(\'delete\', [\'id\' => $v.id])}'"> 删除 </a>
+                        </td>
+                    </tr>
+                    {/foreach}
+                </tbody>
+            </table>
+        </div>
+        <!-- footer -->
+        <footer>
+            <hr>
+            <p>© 2017 <a href="javascript:void(0);" target="_blank">ADMIN</a></p>
+        </footer>
+    </div>

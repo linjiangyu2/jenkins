@@ -1,0 +1,606 @@
+---------------------------------------------------------------
+[ 2022-08-01T05:40:08+08:00 ] 192.168.222.1 GET /
+[ info ] 192.168.222.246/ [运行时间：0.460970s][吞吐率：2.17req/s] [内存消耗：7,623.58kb] [文件加载：63]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'jms_csrftoken=G7i0YQ5lR5c0vQSfZatlsawGAJRLj6kIZKv5r0au9CYT3FZ96wE6XdZHQEYBfEda',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.222.246',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\home\controller\Index->index[ /usr/share/nginx/html/tp5shop/application/home/controller/Index.php ]
+[ info ] [ VIEW ] /usr/share/nginx/html/tp5shop/public/../application/home/view/index/index.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008123s ] mysql:host=192.168.222.240;port=3306;dbname=tp5shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.006275s ]
+[ sql ] [ SQL ] SELECT * FROM `tpshop_category` WHERE  `is_show` = 1 [ RunTime:0.010524s ]
+---------------------------------------------------------------
+[ 2022-08-01T06:19:59+08:00 ] 192.168.222.188 GET /
+[ info ] k/ [运行时间：0.368251s][吞吐率：2.72req/s] [内存消耗：7,623.78kb] [文件加载：63]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e20ibeker5dhos03veai3eqmf6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'k',
+  'x-real-ip' => '192.168.222.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\home\controller\Index->index[ /usr/share/nginx/html/tp5shop/application/home/controller/Index.php ]
+[ info ] [ VIEW ] /usr/share/nginx/html/tp5shop/public/../application/home/view/index/index.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002145s ] mysql:host=192.168.222.240;port=3306;dbname=tp5shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.001696s ]
+[ sql ] [ SQL ] SELECT * FROM `tpshop_category` WHERE  `is_show` = 1 [ RunTime:0.002390s ]
+---------------------------------------------------------------
+[ 2022-08-01T06:20:03+08:00 ] 192.168.222.188 GET /
+[ info ] k/ [运行时间：0.287647s][吞吐率：3.48req/s] [内存消耗：7,623.78kb] [文件加载：63]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e20ibeker5dhos03veai3eqmf6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'k',
+  'x-real-ip' => '192.168.222.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\home\controller\Index->index[ /usr/share/nginx/html/tp5shop/application/home/controller/Index.php ]
+[ info ] [ VIEW ] /usr/share/nginx/html/tp5shop/public/../application/home/view/index/index.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002060s ] mysql:host=192.168.222.240;port=3306;dbname=tp5shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.001743s ]
+[ sql ] [ SQL ] SELECT * FROM `tpshop_category` WHERE  `is_show` = 1 [ RunTime:0.002343s ]
+---------------------------------------------------------------
+[ 2022-08-01T06:20:04+08:00 ] 192.168.222.188 GET /
+[ info ] k/ [运行时间：0.275335s][吞吐率：3.63req/s] [内存消耗：7,623.78kb] [文件加载：63]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e20ibeker5dhos03veai3eqmf6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'k',
+  'x-real-ip' => '192.168.222.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\home\controller\Index->index[ /usr/share/nginx/html/tp5shop/application/home/controller/Index.php ]
+[ info ] [ VIEW ] /usr/share/nginx/html/tp5shop/public/../application/home/view/index/index.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001264s ] mysql:host=192.168.222.240;port=3306;dbname=tp5shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.003851s ]
+[ sql ] [ SQL ] SELECT * FROM `tpshop_category` WHERE  `is_show` = 1 [ RunTime:0.002126s ]
+---------------------------------------------------------------
+[ 2022-08-01T06:20:04+08:00 ] 192.168.222.188 GET /
+[ info ] k/ [运行时间：0.273617s][吞吐率：3.65req/s] [内存消耗：7,623.78kb] [文件加载：63]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e20ibeker5dhos03veai3eqmf6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'k',
+  'x-real-ip' => '192.168.222.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\home\controller\Index->index[ /usr/share/nginx/html/tp5shop/application/home/controller/Index.php ]
+[ info ] [ VIEW ] /usr/share/nginx/html/tp5shop/public/../application/home/view/index/index.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002876s ] mysql:host=192.168.222.240;port=3306;dbname=tp5shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.008629s ]
+[ sql ] [ SQL ] SELECT * FROM `tpshop_category` WHERE  `is_show` = 1 [ RunTime:0.002085s ]
+---------------------------------------------------------------
+[ 2022-08-01T06:23:56+08:00 ] 192.168.222.188 GET /
+[ info ] k/ [运行时间：0.276333s][吞吐率：3.62req/s] [内存消耗：7,623.33kb] [文件加载：63]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'k',
+  'x-real-ip' => '192.168.222.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\home\controller\Index->index[ /usr/share/nginx/html/tp5shop/application/home/controller/Index.php ]
+[ info ] [ VIEW ] /usr/share/nginx/html/tp5shop/public/../application/home/view/index/index.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006367s ] mysql:host=192.168.222.240;port=3306;dbname=tp5shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.003479s ]
+[ sql ] [ SQL ] SELECT * FROM `tpshop_category` WHERE  `is_show` = 1 [ RunTime:0.002238s ]
+---------------------------------------------------------------
+[ 2022-08-01T06:23:58+08:00 ] 192.168.222.188 GET /
+[ info ] k/ [运行时间：0.273126s][吞吐率：3.66req/s] [内存消耗：7,623.86kb] [文件加载：63]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o9l4535nvcja17rdc2pdr8ea39; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'k',
+  'x-real-ip' => '192.168.222.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\home\controller\Index->index[ /usr/share/nginx/html/tp5shop/application/home/controller/Index.php ]
+[ info ] [ VIEW ] /usr/share/nginx/html/tp5shop/public/../application/home/view/index/index.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001410s ] mysql:host=192.168.222.240;port=3306;dbname=tp5shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.003368s ]
+[ sql ] [ SQL ] SELECT * FROM `tpshop_category` WHERE  `is_show` = 1 [ RunTime:0.001969s ]
+---------------------------------------------------------------
+[ 2022-08-01T06:24:00+08:00 ] 192.168.222.188 GET /
+[ info ] k/ [运行时间：0.307232s][吞吐率：3.25req/s] [内存消耗：7,623.86kb] [文件加载：63]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o9l4535nvcja17rdc2pdr8ea39; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'k',
+  'x-real-ip' => '192.168.222.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\home\controller\Index->index[ /usr/share/nginx/html/tp5shop/application/home/controller/Index.php ]
+[ info ] [ VIEW ] /usr/share/nginx/html/tp5shop/public/../application/home/view/index/index.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002281s ] mysql:host=192.168.222.240;port=3306;dbname=tp5shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.003426s ]
+[ sql ] [ SQL ] SELECT * FROM `tpshop_category` WHERE  `is_show` = 1 [ RunTime:0.003423s ]
+---------------------------------------------------------------
+[ 2022-08-01T07:22:00+08:00 ] 192.168.222.1 GET /
+[ info ] 192.168.222.246/ [运行时间：3.097166s][吞吐率：0.32req/s] [内存消耗：2,617.57kb] [文件加载：60]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'jms_csrftoken=G7i0YQ5lR5c0vQSfZatlsawGAJRLj6kIZKv5r0au9CYT3FZ96wE6XdZHQEYBfEda',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.222.246',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] No route to host[/usr/share/nginx/html/tp5shop/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2022-08-01T07:25:46+08:00 ] 192.168.222.1 GET /
+[ info ] 192.168.222.246/ [运行时间：3.034012s][吞吐率：0.33req/s] [内存消耗：2,617.66kb] [文件加载：60]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'jms_csrftoken=G7i0YQ5lR5c0vQSfZatlsawGAJRLj6kIZKv5r0au9CYT3FZ96wE6XdZHQEYBfEda; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.222.246',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] No route to host[/usr/share/nginx/html/tp5shop/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2022-08-01T07:28:47+08:00 ] 192.168.222.1 GET /
+[ info ] 192.168.222.246/ [运行时间：3.041962s][吞吐率：0.33req/s] [内存消耗：2,617.17kb] [文件加载：60]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.222.246',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] No route to host[/usr/share/nginx/html/tp5shop/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2022-08-01T07:29:01+08:00 ] 192.168.222.1 GET /
+[ info ] 192.168.222.246/ [运行时间：3.034928s][吞吐率：0.33req/s] [内存消耗：2,617.54kb] [文件加载：60]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.222.246',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] No route to host[/usr/share/nginx/html/tp5shop/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2022-08-01T16:03:56+08:00 ] 192.168.222.1 GET /
+[ info ] 192.168.222.246/ [运行时间：3.082747s][吞吐率：0.32req/s] [内存消耗：2,617.80kb] [文件加载：60]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'if-modified-since' => 'Mon, 01 Aug 2022 01:28:03 GMT',
+  'if-none-match' => '"d-5e523e946d130"',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.222.246',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] No route to host[/usr/share/nginx/html/tp5shop/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2022-08-01T17:44:21+08:00 ] 192.168.222.1 GET /
+[ info ] 192.168.222.246/ [运行时间：3.058288s][吞吐率：0.33req/s] [内存消耗：2,617.54kb] [文件加载：60]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.222.246',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] No route to host[/usr/share/nginx/html/tp5shop/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2022-08-01T19:21:28+08:00 ] 0.0.0.0 GET /
+[ info ] localhost/ [运行时间：3.049662s][吞吐率：0.33req/s] [内存消耗：2,612.91kb] [文件加载：60]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'user-agent' => 'curl/7.29.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] No route to host[/usr/share/nginx/html/tp5shop/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2022-08-01T19:21:42+08:00 ] 192.168.222.1 GET /
+[ info ] 192.168.222.246/ [运行时间：3.073399s][吞吐率：0.33req/s] [内存消耗：2,617.52kb] [文件加载：60]
+[ info ] [ LANG ] /usr/share/nginx/html/tp5shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.222.246',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] No route to host[/usr/share/nginx/html/tp5shop/thinkphp/library/think/db/Connection.php:293]

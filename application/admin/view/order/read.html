@@ -1,0 +1,67 @@
+
+    <!-- 右 -->
+    <div class="content">
+        <div class="header">
+            <h1 class="page-title">订单详情</h1>
+        </div>
+        
+        <div class="well">
+            订单编号：{$order.order_sn}
+        </div>
+
+        <div class="well">
+            <!-- table -->
+            <table class="table table-bordered table-hover table-condensed">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>商品id</th>
+                    <th>商品名称</th>
+                    <th>商品logo</th>
+                    <th>商品价格</th>
+                    <th>购买数量</th>
+                    <th>商品属性</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                {foreach $ordergoods as $v}
+                <tr class="success">
+                    <td>{$v.id}</td>
+                    <td>{$v.goods_id}</td>
+                    <td>{$v.goods_name}</td>
+                    <td><img src="{$v.goods_logo}"></td>
+                    <td>{$v.goods_price}</td>
+                    <td>{$v.number}</td>
+                    <td>
+                        {foreach $v['goodsattr'] as $attr}
+                        {$attr.attr_name}：{$attr.attr_value}
+                        <br>
+                        {/foreach}
+                    </td>
+                    <td>
+                        <a href="javascript:void(0);"> 编辑 </a>
+                        <a href="javascript:void(0);" onclick="if(confirm('确认删除？')) location.href='#'"> 删除 </a>
+                    </td>
+                </tr>
+                {/foreach}
+                </tbody>
+            </table>
+        </div>
+        <div class="well">
+            收货地址：{$order.consignee_address}
+            <br>
+            <iframe src="http://api.map.baidu.com/geocoder?address={$order.consignee_address}&output=html&src=php65" width="1000" height="800" frameborder="0"></iframe>
+        </div>
+        <div class="well">
+            物流信息：<br>
+            {foreach $kuaidi as $v}
+            <div>{$v.time} ----------------- {$v.context}</div>
+            {/foreach}
+        </div>
+        <!-- footer -->
+        <footer>
+            <hr>
+            <p>© 2017 <a href="javascript:void(0);" target="_blank">ADMIN</a></p>
+        </footer>
+    </div>

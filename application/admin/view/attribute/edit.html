@@ -1,0 +1,39 @@
+
+<!-- 右 -->
+<div class="content">
+    <div class="header">
+        <h1 class="page-title">商品属性编辑</h1>
+    </div>
+
+    <div class="well">
+        <!-- edit form -->
+        <form id="tab" action="{:url('update')}" method="post">
+            <input type="hidden" name="id" value="{$info.id}">
+            <label>属性名称：</label>
+            <input type="text" name="attr_name" value="{$info.attr_name}" class="input-xlarge">
+            <label>商品类型：</label>
+            <select name="type_id" class="dfinput">
+                <option value="0">--请选择--</option>
+                {foreach $type as $v}
+                <option value="{$v.id}" {if ($v.id eq $info.type_id)}selected="selected"{/if}>{$v.type_name}</option>
+                {/foreach}
+            </select>
+            <label>属性类型：</label>
+            <input type="radio" name="attr_type" value="0" checked="checked">唯一属性&emsp;
+            <input type="radio" name="attr_type" value="1" {if ($info.attr_type eq 1)}checked="checked"{/if}>单选属性
+            <label>录入方式：</label>
+            <input type="radio" name="attr_input_type" value="0" checked="checked">输入框&emsp;
+            <input type="radio" name="attr_input_type" value="1" {if ($info.attr_input_type eq 1)}checked="checked"{/if}>下拉列表
+            <input type="radio" name="attr_input_type" value="2" {if ($info.attr_input_type eq 2)}checked="checked"{/if}>多选框
+            <label>可选值：</label>
+            <textarea name="attr_values" placeholder="请输入可选值，多个值之间请使用英文“,”分隔开" class="textinput">{$info.attr_values}</textarea>
+            <label></label>
+            <button class="btn btn-primary" type="submit">保存</button>
+        </form>
+    </div>
+    <!-- footer -->
+    <footer>
+        <hr>
+        <p>© 2017 <a href="javascript:void(0);" target="_blank">ADMIN</a></p>
+    </footer>
+</div>
